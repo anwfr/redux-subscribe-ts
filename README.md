@@ -1,5 +1,5 @@
 # redux-subscribe-ts
-- Subscribe to a path in your redux state atom
+- Subscribe to specific path in your redux state
 - Get notified only when the sub-state (corresponding to this path) is modified
 - Get state difference
 - Typescript
@@ -18,7 +18,7 @@ import reducers from '../reducers'
 
 export default function configureStore () {
     const logger = createLogger();
-    return createStore(reducers,  applyMiddleware(ReduxThunk, promiseMiddleware, subscribeMiddleware, logger))
+    return createStore(reducers,  applyMiddleware(subscribeMiddleware))
 }
 ```
 
