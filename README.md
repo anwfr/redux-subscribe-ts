@@ -43,3 +43,7 @@ store.dispatch(unsubscribe('path', 'uniquesubscriberkey'))
 ## TODO
 - package as NPM module
 - tests
+
+## Credits
+- [redux-subscribe](https://github.com/ashaffer/redux-subscribe)
+- [redux-haiku](https://github.com/xaviervia/redux-haiku)
