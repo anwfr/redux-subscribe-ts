@@ -1,4 +1,4 @@
-import {getDifference} from '../object-difference'
+import {getDifference} from '../lib/object-difference-ts'
 const SUBSCRIBE = '@@redux-subscribe-ts/subscribe';
 const UNSUBSCRIBE = '@@redux-subscribe-ts/unsubscribe';
 
