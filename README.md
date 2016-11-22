@@ -40,7 +40,7 @@ store.dispatch(subscribe('path', 'uniquesubscriberkey', stateChange=>this.onStat
 store.dispatch(unsubscribe('path', 'uniquesubscriberkey'))
 ```
 
-## TODO
+## To do
 - package as NPM module
 - tests
 
