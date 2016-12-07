@@ -2,7 +2,7 @@
 - Subscribe to specific path in your redux state
 - Get notified only when the sub-state (corresponding to this path) is modified
 - Get state difference
-- Typescript
+- Typescript and webpack
 
 ## Dependencies
 - object-difference-ts
